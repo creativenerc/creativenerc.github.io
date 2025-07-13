@@ -2,28 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CreativeNerc | Aditya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya | CreativeNerc</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    html {
-      scroll-behavior: smooth;
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header, footer {
+      padding: 20px;
+      background-color: #f5f5f5;
     }
     section {
-      padding: 50px 20px;
+      padding: 40px 20px;
     }
     nav a {
-      margin-right: 15px;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    img.profile {
+      width: 180px;
+      height: auto;
+      border-radius: 50%;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>CreativeNerc</h1>
+    <h1>Welcome to My Website</h1>
     <nav>
       <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="#blog">Blog</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -31,45 +46,24 @@
   <main>
     <!-- Home Section -->
     <section id="home">
-      <h2>Welcome to My Portfolio</h2>
-      <p>Explore my creative works and design projects.</p>
+      <h2>Hello, I'm Aditya</h2>
+      <p>A basic graphic designer creating clean and simple designs.</p>
     </section>
 
     <!-- About Section -->
     <section id="about">
       <h2>About Me</h2>
-      <p>I’m Aditya, a passionate and creative basic graphic designer. I specialize in crafting simple yet impactful visual designs, including posters, logos, social media graphics, and branding elements. With a keen eye for layout, color, and typography, I enjoy turning ideas into clean and effective visuals. I’m always exploring new design trends and tools to improve my skills. Whether it’s for a personal brand or a small business, I aim to deliver professional-looking designs that stand out. Graphic design is more than a skill to me—it's my way of expressing creativity and helping others visually communicate their message.</p>
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog">
-      <h2>My Blog</h2>
-      <article>
-        <h3>First Blog Post</h3>
-        <p>This is a sample blog post. More coming soon!</p>
-      </article>
+      <!-- 🔽 This is the image you must place in the same folder -->
+      <img src="profile.jpg" alt="Aditya" class="profile" />
+      <p>I’m Aditya, a passionate and creative basic graphic designer. I create posters, logos, social media graphics, and more using simple design principles. I’m learning new tools and styles to grow my skills and make visuals that look clean and professional.</p>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
       <h2>Contact Me</h2>
-      <form action="mailto:your@email.com" method="post">
-        <label for="name">Name:</label><br />
-        <input type="text" id="name" name="name" required /><br />
-
-        <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" required /><br />
-
-        <label for="message">Message:</label><br />
-        <textarea id="message" name="message" required></textarea><br />
-
-        <button type="submit">Send</button>
-      </form>
+      <p>Email: your@email.com</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 CreativeNerc. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+    <p>&copy; 2025 CreativeNerc. All rights reserved.</p
